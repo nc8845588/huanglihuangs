@@ -1,0 +1,756 @@
+@import url(common.css);
+.da-banner { background: #85AEFE; }
+
+.da-banner .da-select-banner { overflow: hidden; width: 1200px; margin: 0 auto; }
+
+.da-banner .da-select-banner ul { position: relative; }
+
+.da-banner .da-select { width: 222px; height: 480px; background: #E8E3EB; position: absolute; left: 112px; top: 192px; }
+
+.da-banner .da-select .first-select { width: 180px; height: 121px; border-bottom: 1px dotted #ccc; margin-left: 21px; }
+
+.da-banner .da-select .first-select p { line-height: 50px; font-size: 14px; margin-left: 6px; }
+
+.da-banner .da-select .first-select .one { width: 160px; }
+
+.da-banner .da-select .first-select .one li { float: left; padding: 0 6px; line-height: 20px; }
+
+.da-banner .da-select .first-select .two { margin-left: 6px; }
+
+.da-banner .da-select .first-select .two li { float: left; line-height: 20px; }
+
+.da-banner .da-select .second-select { width: 180px; height: 121px; border-bottom: 1px dotted #ccc; margin-left: 21px; }
+
+.da-banner .da-select .second-select p { line-height: 50px; font-size: 14px; margin-left: 6px; }
+
+.da-banner .da-select .second-select .one { width: 160px; }
+
+.da-banner .da-select .second-select .one li { float: left; padding: 0 6px; line-height: 20px; }
+
+.da-banner .da-select .second-select .two { margin-left: 6px; }
+
+.da-banner .da-select .second-select .two li { float: left; line-height: 20px; }
+
+.da-banner .da-select .three-select { width: 180px; height: 121px; border-bottom: 1px dotted #ccc; margin-left: 21px; }
+
+.da-banner .da-select .three-select p { line-height: 50px; font-size: 14px; margin-left: 6px; }
+
+.da-banner .da-select .three-select .one { width: 160px; }
+
+.da-banner .da-select .three-select .one li { float: left; padding: 0 6px; line-height: 20px; }
+
+.da-banner .da-select .three-select .two { margin-left: 6px; }
+
+.da-banner .da-select .three-select .two li { float: left; line-height: 20px; }
+
+.da-banner .da-select .four-select { width: 180px; height: 121px; margin-left: 21px; }
+
+.da-banner .da-select .four-select p { line-height: 50px; font-size: 14px; margin-left: 6px; }
+
+.da-banner .da-select .four-select .one { width: 160px; }
+
+.da-banner .da-select .four-select .one li { float: left; padding: 0 6px; line-height: 20px; }
+
+.da-banner .da-select .four-select .two { margin-left: 6px; }
+
+.da-banner .da-select .four-select .two li { float: left; line-height: 20px; }
+
+.da-main-all { background: #F9F9F9; }
+
+.da-main-all .da-main { width: 1200px; margin: 0 auto; }
+
+.da-main-all .da-main .da-main-word { height: 191px; padding-top: 74px; }
+
+.da-main-all .da-main .da-main-word p { font-size: 30px; margin-left: 384px; color: #666666; }
+
+.da-main-all .da-main .da-main-word span { display: block; margin-top: 108px; margin-left: 56px; color: #666666; font-size: 16px; }
+
+.da-main-all .da-main .da-main-look { height: 284px; }
+
+.da-main-all .da-main .da-main-look .first { width: 590px; float: left; }
+
+.da-main-all .da-main .da-main-look .first a:hover img { box-shadow: 0 0 4px 1px #ccc; }
+
+.da-main-all .da-main .da-main-look .second { width: 590px; float: left; margin-left: 20px; }
+
+.da-main-all .da-main .da-main-look .second a:hover img { box-shadow: 0 0 4px 1px #ccc; }
+
+.da-main-all .da-main .da-main-new { height: 82px; padding-top: 41px; }
+
+.da-main-all .da-main .da-main-new span { margin-left: 56px; color: #666666; font-size: 16px; }
+
+.da-main-all .da-main .da-main-new .da-main-load { width: 91px; height: 31px; background: red; float: right; margin-right: 40px; }
+
+.da-main-all .da-main .da-main-new .da-main-load p { color: #fff; font-size: 14px; line-height: 31px; margin-left: 20px; }
+
+.da-main-all .da-main .da-main-product { height: 382px; width: 1200px; }
+
+.da-main-all .da-main .da-main-product .first { width: 289px; height: 382px; float: left; border: 1px solid #ccc; }
+
+.da-main-all .da-main .da-main-product .first:hover { box-shadow: 0 0 4px 1px #ccc; }
+
+.da-main-all .da-main .da-main-product .first .product-img { width: 289px; height: 266px; }
+
+.da-main-all .da-main .da-main-product .first .product-img img { width: 287px; height: 266px; }
+
+.da-main-all .da-main .da-main-product .first .product-word { margin-left: 20px; }
+
+.da-main-all .da-main .da-main-product .first .product-word .p1 { color: red; font-size: 20px; }
+
+.da-main-all .da-main .da-main-product .first .product-word .p1 span { color: #666666; margin-left: 80px; font-size: 14px; }
+
+.da-main-all .da-main .da-main-product .first .product-word .p2 { margin-top: 20px; line-height: 16px; }
+
+.da-main-all .da-main .da-main-product .second { width: 289px; height: 382px; float: left; margin-left: 14px; border: 1px solid #ccc; }
+
+.da-main-all .da-main .da-main-product .second:hover { box-shadow: 0 0 4px 1px #ccc; }
+
+.da-main-all .da-main .da-main-product .second .product-img { width: 289px; height: 266px; }
+
+.da-main-all .da-main .da-main-product .second .product-img img { width: 287px; height: 266px; }
+
+.da-main-all .da-main .da-main-product .second .product-word { margin-left: 20px; }
+
+.da-main-all .da-main .da-main-product .second .product-word .p1 { color: red; font-size: 20px; }
+
+.da-main-all .da-main .da-main-product .second .product-word .p1 span { color: #666666; margin-left: 80px; font-size: 14px; }
+
+.da-main-all .da-main .da-main-product .second .product-word .p2 { margin-top: 20px; line-height: 16px; }
+
+.da-main-all .da-main .da-main-product .three { width: 289px; height: 382px; float: left; margin-left: 14px; border: 1px solid #ccc; }
+
+.da-main-all .da-main .da-main-product .three:hover { box-shadow: 0 0 4px 1px #ccc; }
+
+.da-main-all .da-main .da-main-product .three .product-img { width: 287px; height: 266px; }
+
+.da-main-all .da-main .da-main-product .three .product-img img { width: 287px; height: 266px; }
+
+.da-main-all .da-main .da-main-product .three .product-word { margin-left: 27px; }
+
+.da-main-all .da-main .da-main-product .three .product-word .p1 { color: red; font-size: 20px; }
+
+.da-main-all .da-main .da-main-product .three .product-word .p1 span { color: #666666; margin-left: 100px; font-size: 14px; }
+
+.da-main-all .da-main .da-main-product .three .product-word .p2 { margin-top: 20px; line-height: 16px; }
+
+.da-main-all .da-main .da-main-product .four { width: 289px; height: 382px; float: left; margin-left: 14px; border: 1px solid #ccc; }
+
+.da-main-all .da-main .da-main-product .four:hover { box-shadow: 0 0 4px 1px #ccc; }
+
+.da-main-all .da-main .da-main-product .four .product-img { width: 289px; height: 266px; }
+
+.da-main-all .da-main .da-main-product .four .product-img img { width: 287px; height: 266px; }
+
+.da-main-all .da-main .da-main-product .four .product-word { margin-left: 15px; }
+
+.da-main-all .da-main .da-main-product .four .product-word .p1 { color: red; font-size: 20px; }
+
+.da-main-all .da-main .da-main-product .four .product-word .p1 span { color: #666666; margin-left: 80px; font-size: 14px; }
+
+.da-main-all .da-main .da-main-product .four .product-word .p2 { margin-top: 20px; line-height: 16px; }
+
+.da-main-all .da-main .da-main-cloth { height: 240px; margin-top: 18px; }
+
+.da-main-all .da-main .da-main-cloth .first { width: 590px; height: 241px; float: left; border: 1px solid #ccc; }
+
+.da-main-all .da-main .da-main-cloth .first:hover { box-shadow: 0 0 4px 1px #ccc; }
+
+.da-main-all .da-main .da-main-cloth .first .cloth-img { float: left; }
+
+.da-main-all .da-main .da-main-cloth .first .cloth-img img { width: 285px; height: 240px; }
+
+.da-main-all .da-main .da-main-cloth .first .cloth-word { float: left; margin-left: 47px; margin-top: 80px; }
+
+.da-main-all .da-main .da-main-cloth .first .cloth-word .p1 { color: red; font-size: 20px; }
+
+.da-main-all .da-main .da-main-cloth .first .cloth-word .p1 span { color: #666666; margin-left: 80px; font-size: 14px; }
+
+.da-main-all .da-main .da-main-cloth .first .cloth-word .p2 { margin-top: 20px; line-height: 16px; }
+
+.da-main-all .da-main .da-main-cloth .second { width: 590px; height: 241px; float: left; border: 1px solid #ccc; margin-left: 18px; }
+
+.da-main-all .da-main .da-main-cloth .second:hover { box-shadow: 0 0 4px 1px #ccc; }
+
+.da-main-all .da-main .da-main-cloth .second .cloth-img { float: left; }
+
+.da-main-all .da-main .da-main-cloth .second .cloth-img img { width: 285px; height: 240px; }
+
+.da-main-all .da-main .da-main-cloth .second .cloth-word { float: left; margin-left: 47px; margin-top: 80px; }
+
+.da-main-all .da-main .da-main-cloth .second .cloth-word .p1 { color: red; font-size: 20px; }
+
+.da-main-all .da-main .da-main-cloth .second .cloth-word .p1 span { color: #666666; margin-left: 80px; font-size: 14px; }
+
+.da-main-all .da-main .da-main-cloth .second .cloth-word .p2 { margin-top: 20px; line-height: 16px; }
+
+.da-main-all .da-main .da-main-shopword { height: 142px; padding-top: 62px; }
+
+.da-main-all .da-main .da-main-shopword .p1 { margin-left: 30px; color: #666666; font-size: 16px; }
+
+.da-main-all .da-main .da-main-shopword .p2 { color: #666666; font-size: 16px; margin-top: 30px; margin-left: 30px; }
+
+.da-main-all .da-main .da-main-world { height: 234px; padding-top: 42px; background: #fff; }
+
+.da-main-all .da-main .da-main-world .one { width: 210px; height: 140px; float: left; border: 1px solid #ccc; margin-left: 40px; }
+
+.da-main-all .da-main .da-main-world .one:hover { box-shadow: 1px 0 4px 3px #ccc; }
+
+.da-main-all .da-main .da-main-world .one img { width: 210px; height: 140px; }
+
+.da-main-all .da-main .da-main-world .two { width: 210px; height: 140px; float: left; border: 1px solid #ccc; margin-left: 20px; }
+
+.da-main-all .da-main .da-main-world .two:hover { box-shadow: 1px 0 4px 3px #ccc; }
+
+.da-main-all .da-main .da-main-world .two img { width: 210px; height: 140px; }
+
+.da-main-all .da-main .da-main-world .three { width: 210px; height: 140px; float: left; border: 1px solid #ccc; margin-left: 20px; }
+
+.da-main-all .da-main .da-main-world .three:hover { box-shadow: 1px 0 4px 3px #ccc; }
+
+.da-main-all .da-main .da-main-world .three img { width: 210px; height: 140px; }
+
+.da-main-all .da-main .da-main-world .four { width: 210px; height: 140px; float: left; border: 1px solid #ccc; margin-left: 20px; }
+
+.da-main-all .da-main .da-main-world .four:hover { box-shadow: 1px 0 4px 3px #ccc; }
+
+.da-main-all .da-main .da-main-world .four img { width: 210px; height: 140px; }
+
+.da-main-all .da-main .da-main-world .five { width: 210px; height: 140px; float: left; border: 1px solid #ccc; margin-left: 20px; }
+
+.da-main-all .da-main .da-main-world .five:hover { box-shadow: 1px 0 4px 3px #ccc; }
+
+.da-main-all .da-main .da-main-world .five img { width: 210px; height: 140px; }
+
+.da-main-all .da-main .da-main-good { height: 83px; padding-top: 53px; }
+
+.da-main-all .da-main .da-main-good p { font-size: 16px; color: #666666; margin-left: 53px; }
+
+.da-main-all .da-main .da-main-tab { height: 1039px; background: #fff; padding-top: 39px; }
+
+.da-main-all .da-main .da-main-tab ul { height: 33px; border-bottom: 1px solid #ccc; padding-left: 37px; }
+
+.da-main-all .da-main .da-main-tab ul li { float: left; padding: 5px 16px; margin-right: 10px; border: 1px solid #ccc; border-bottom: 0; }
+
+.da-main-all .da-main .da-main-tab ul li a { font-size: 16px; }
+
+.da-main-all .da-main .tab-productone .dataone { width: 282px; height: 444px; margin-left: 82px; margin-top: 40px; float: left; }
+
+.da-main-all .da-main .tab-productone .dataone:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-main .tab-productone .dataone img { width: 280px; height: 280px; }
+
+.da-main-all .da-main .tab-productone .dataone p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-productone .dataone p .rede { color: red; }
+
+.da-main-all .da-main .tab-productone .dataone p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-main .tab-productone .dataone a:hover { text-decoration: underline; }
+
+.da-main-all .da-main .tab-productone .dataone a p { color: #666666; }
+
+.da-main-all .da-main .tab-productone .dataone .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-main .tab-productone .dataone .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-productone .dataone .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-main .tab-productone .dataone .comment .comment-text { float: left; }
+
+.da-main-all .da-main .tab-productone .dataone .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-main .tab-productone .dataone .list { margin-left: 120px; }
+
+.da-main-all .da-main .tab-productone .datatwo { width: 282px; height: 444px; margin-left: 82px; margin-top: 40px; float: left; }
+
+.da-main-all .da-main .tab-productone .datatwo:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-main .tab-productone .datatwo img { width: 280px; height: 280px; }
+
+.da-main-all .da-main .tab-productone .datatwo p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-productone .datatwo p .rede { color: red; }
+
+.da-main-all .da-main .tab-productone .datatwo p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-main .tab-productone .datatwo a:hover { text-decoration: underline; }
+
+.da-main-all .da-main .tab-productone .datatwo a p { color: #666666; }
+
+.da-main-all .da-main .tab-productone .datatwo .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-main .tab-productone .datatwo .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-productone .datatwo .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-main .tab-productone .datatwo .comment .comment-text { float: left; }
+
+.da-main-all .da-main .tab-productone .datatwo .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-main .tab-productone .datatwo .list { margin-left: 120px; }
+
+.da-main-all .da-main .tab-productone .datathree { width: 282px; height: 444px; margin-left: 82px; margin-top: 40px; float: left; }
+
+.da-main-all .da-main .tab-productone .datathree:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-main .tab-productone .datathree img { width: 280px; height: 280px; }
+
+.da-main-all .da-main .tab-productone .datathree p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-productone .datathree p .rede { color: red; }
+
+.da-main-all .da-main .tab-productone .datathree p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-main .tab-productone .datathree a:hover { text-decoration: underline; }
+
+.da-main-all .da-main .tab-productone .datathree a p { color: #666666; }
+
+.da-main-all .da-main .tab-productone .datathree .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-main .tab-productone .datathree .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-productone .datathree .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-main .tab-productone .datathree .comment .comment-text { float: left; }
+
+.da-main-all .da-main .tab-productone .datathree .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-main .tab-productone .datathree .list { margin-left: 120px; }
+
+.da-main-all .da-main .tab-producttwo .datafour { width: 282px; height: 444px; margin-left: 82px; margin-top: 15px; float: left; }
+
+.da-main-all .da-main .tab-producttwo .datafour:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-main .tab-producttwo .datafour img { width: 280px; height: 280px; }
+
+.da-main-all .da-main .tab-producttwo .datafour p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-producttwo .datafour p .rede { color: red; }
+
+.da-main-all .da-main .tab-producttwo .datafour p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-main .tab-producttwo .datafour a:hover { text-decoration: underline; }
+
+.da-main-all .da-main .tab-producttwo .datafour a p { color: #666666; }
+
+.da-main-all .da-main .tab-producttwo .datafour .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-main .tab-producttwo .datafour .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-producttwo .datafour .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-main .tab-producttwo .datafour .comment .comment-text { float: left; }
+
+.da-main-all .da-main .tab-producttwo .datafour .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-main .tab-producttwo .datafour .list { margin-left: 120px; }
+
+.da-main-all .da-main .tab-producttwo .datafive { width: 282px; height: 444px; margin-left: 82px; margin-top: 15px; float: left; }
+
+.da-main-all .da-main .tab-producttwo .datafive:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-main .tab-producttwo .datafive img { width: 280px; height: 280px; }
+
+.da-main-all .da-main .tab-producttwo .datafive p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-producttwo .datafive p .rede { color: red; }
+
+.da-main-all .da-main .tab-producttwo .datafive p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-main .tab-producttwo .datafive a:hover { text-decoration: underline; }
+
+.da-main-all .da-main .tab-producttwo .datafive a p { color: #666666; }
+
+.da-main-all .da-main .tab-producttwo .datafive .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-main .tab-producttwo .datafive .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-producttwo .datafive .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-main .tab-producttwo .datafive .comment .comment-text { float: left; }
+
+.da-main-all .da-main .tab-producttwo .datafive .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-main .tab-producttwo .datafive .list { margin-left: 120px; }
+
+.da-main-all .da-main .tab-producttwo .datasix { width: 282px; height: 444px; margin-left: 82px; margin-top: 15px; float: left; }
+
+.da-main-all .da-main .tab-producttwo .datasix:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-main .tab-producttwo .datasix img { width: 280px; height: 280px; }
+
+.da-main-all .da-main .tab-producttwo .datasix p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-producttwo .datasix p .rede { color: red; }
+
+.da-main-all .da-main .tab-producttwo .datasix p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-main .tab-producttwo .datasix a:hover { text-decoration: underline; }
+
+.da-main-all .da-main .tab-producttwo .datasix a p { color: #666666; }
+
+.da-main-all .da-main .tab-producttwo .datasix .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-main .tab-producttwo .datasix .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-main .tab-producttwo .datasix .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-main .tab-producttwo .datasix .comment .comment-text { float: left; }
+
+.da-main-all .da-main .tab-producttwo .datasix .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-main .tab-producttwo .datasix .list { margin-left: 120px; }
+
+.da-main-all .da-buytext p { color: #666666; font-size: 16px; margin-top: 52px; margin-left: 57px; }
+
+.da-main-all .buy-list { height: 472px; background: #fff; margin-top: 5px; }
+
+.da-main-all .second-buytext p { color: #666666; font-size: 16px; margin-top: 52px; margin-left: 57px; }
+
+.da-main-all .da-newproduct { height: 971px; background: #fff; margin-top: 5px; }
+
+.da-main-all .da-newproduct .new-productone .dataone { width: 282px; height: 444px; margin-left: 82px; margin-top: 40px; float: left; }
+
+.da-main-all .da-newproduct .new-productone .dataone:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-newproduct .new-productone .dataone img { width: 280px; height: 280px; }
+
+.da-main-all .da-newproduct .new-productone .dataone p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-productone .dataone p .rede { color: red; }
+
+.da-main-all .da-newproduct .new-productone .dataone p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-newproduct .new-productone .dataone a:hover { text-decoration: underline; }
+
+.da-main-all .da-newproduct .new-productone .dataone a p { color: #666666; }
+
+.da-main-all .da-newproduct .new-productone .dataone .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-newproduct .new-productone .dataone .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-productone .dataone .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-newproduct .new-productone .dataone .comment .comment-text { float: left; }
+
+.da-main-all .da-newproduct .new-productone .dataone .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-newproduct .new-productone .dataone .list { margin-left: 120px; }
+
+.da-main-all .da-newproduct .new-productone .datatwo { width: 282px; height: 444px; margin-left: 82px; margin-top: 40px; float: left; }
+
+.da-main-all .da-newproduct .new-productone .datatwo:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-newproduct .new-productone .datatwo img { width: 280px; height: 280px; }
+
+.da-main-all .da-newproduct .new-productone .datatwo p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-productone .datatwo p .rede { color: red; }
+
+.da-main-all .da-newproduct .new-productone .datatwo p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-newproduct .new-productone .datatwo a:hover { text-decoration: underline; }
+
+.da-main-all .da-newproduct .new-productone .datatwo a p { color: #666666; }
+
+.da-main-all .da-newproduct .new-productone .datatwo .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-newproduct .new-productone .datatwo .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-productone .datatwo .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-newproduct .new-productone .datatwo .comment .comment-text { float: left; }
+
+.da-main-all .da-newproduct .new-productone .datatwo .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-newproduct .new-productone .datatwo .list { margin-left: 120px; }
+
+.da-main-all .da-newproduct .new-productone .datathree { width: 282px; height: 444px; margin-left: 82px; margin-top: 40px; float: left; }
+
+.da-main-all .da-newproduct .new-productone .datathree:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-newproduct .new-productone .datathree img { width: 280px; height: 280px; }
+
+.da-main-all .da-newproduct .new-productone .datathree p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-productone .datathree p .rede { color: red; }
+
+.da-main-all .da-newproduct .new-productone .datathree p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-newproduct .new-productone .datathree a:hover { text-decoration: underline; }
+
+.da-main-all .da-newproduct .new-productone .datathree a p { color: #666666; }
+
+.da-main-all .da-newproduct .new-productone .datathree .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-newproduct .new-productone .datathree .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-productone .datathree .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-newproduct .new-productone .datathree .comment .comment-text { float: left; }
+
+.da-main-all .da-newproduct .new-productone .datathree .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-newproduct .new-productone .datathree .list { margin-left: 120px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour { width: 282px; height: 444px; margin-left: 82px; margin-top: 15px; float: left; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour img { width: 280px; height: 280px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour p .rede { color: red; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour a:hover { text-decoration: underline; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour a p { color: #666666; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour .comment .comment-text { float: left; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafour .list { margin-left: 120px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive { width: 282px; height: 444px; margin-left: 82px; margin-top: 15px; float: left; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive img { width: 280px; height: 280px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive p .rede { color: red; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive a:hover { text-decoration: underline; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive a p { color: #666666; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive .comment .comment-text { float: left; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-newproduct .new-producttwo .datafive .list { margin-left: 120px; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix { width: 282px; height: 444px; margin-left: 82px; margin-top: 15px; float: left; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix img { width: 280px; height: 280px; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix p { margin-top: 10px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix p .rede { color: red; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix p .newprice { color: red; font-size: 20px; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix a:hover { text-decoration: underline; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix a p { color: #666666; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix .comment { width: 260px; height: 50px; background: #FFFDE6; border-radius: 30px; margin-top: 10px; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix .comment .face { float: left; padding-top: 8px; margin-left: 10px; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix .comment .face img { width: 30px; height: 30px; border-radius: 50%; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix .comment .comment-text { float: left; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix .comment .comment-text p { font-size: 12px; }
+
+.da-main-all .da-newproduct .new-producttwo .datasix .list { margin-left: 120px; }
+
+.da-main-all .main-new-word { height: 156px; }
+
+.da-main-all .main-new-word p { font-size: 30px; margin-left: 384px; color: #666666; margin-top: 40px; }
+
+.da-main-all .main-new-word span { display: block; margin-top: 68px; margin-left: 56px; color: #666666; font-size: 16px; }
+
+.da-main-all .sale-list { width: 1200px; height: 1232px; margin: 0 auto; }
+
+.da-main-all .sale-list .list-one { float: left; background: #F9F9F9; width: 789px; height: 1232px; }
+
+.da-main-all .sale-list .list-one .listproduct-one { width: 789px; height: 284px; background: #fff; }
+
+.da-main-all .sale-list .list-one .listproduct-one:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-img { width: 281px; height: 284px; margin-left: 108px; float: left; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-img img { width: 280px; height: 280px; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message { float: left; width: 292px; height: 268px; margin-left: 100px; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .title { margin-top: 22px; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .title .discount { color: red; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .title a { color: black; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .title a:hover { text-decoration: underline; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .intro { color: #888888; margin-top: 22px; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .price { margin-top: 52px; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .price .rede { color: red; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .price .newprice { color: red; font-size: 22px; margin-top: 52px; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .function { margin-top: 25px; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .function a { display: block; width: 140px; height: 40px; background: red; color: #fff; line-height: 40px; text-align: center; font-size: 16px; float: left; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .function a:hover { text-decoration: underline; }
+
+.da-main-all .sale-list .list-one .listproduct-one .list-message .function .buypeo { display: block; float: left; margin-left: 30px; margin-top: 15px; }
+
+.da-main-all .sale-list .list-one .listproduct-two { width: 789px; height: 284px; background: #fff; margin-top: 17px; }
+
+.da-main-all .sale-list .list-one .listproduct-two:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-img { width: 281px; height: 284px; margin-left: 108px; float: left; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-img img { width: 280px; height: 280px; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message { float: left; width: 292px; height: 268px; margin-left: 100px; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .title { margin-top: 22px; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .title .discount { color: red; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .title a { color: black; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .title a:hover { text-decoration: underline; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .intro { color: #888888; margin-top: 22px; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .price { margin-top: 52px; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .price .rede { color: red; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .price .newprice { color: red; font-size: 22px; margin-top: 52px; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .function { margin-top: 25px; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .function a { display: block; width: 140px; height: 40px; background: red; color: #fff; line-height: 40px; text-align: center; font-size: 16px; float: left; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .function a:hover { text-decoration: underline; }
+
+.da-main-all .sale-list .list-one .listproduct-two .list-message .function .buypeo { display: block; float: left; margin-left: 30px; margin-top: 15px; }
+
+.da-main-all .sale-list .list-one .listproduct-three { width: 789px; height: 284px; background: #fff; margin-top: 17px; }
+
+.da-main-all .sale-list .list-one .listproduct-three:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-img { width: 281px; height: 284px; margin-left: 108px; float: left; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-img img { width: 280px; height: 280px; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message { float: left; width: 292px; height: 268px; margin-left: 100px; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .title { margin-top: 22px; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .title .discount { color: red; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .title a { color: black; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .title a:hover { text-decoration: underline; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .intro { color: #888888; margin-top: 22px; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .price { margin-top: 52px; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .price .rede { color: red; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .price .newprice { color: red; font-size: 22px; margin-top: 52px; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .function { margin-top: 25px; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .function a { display: block; width: 140px; height: 40px; background: red; color: #fff; line-height: 40px; text-align: center; font-size: 16px; float: left; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .function a:hover { text-decoration: underline; }
+
+.da-main-all .sale-list .list-one .listproduct-three .list-message .function .buypeo { display: block; float: left; margin-left: 30px; margin-top: 15px; }
+
+.da-main-all .sale-list .list-one .listproduct-four { width: 789px; height: 284px; background: #fff; margin-top: 17px; }
+
+.da-main-all .sale-list .list-one .listproduct-four:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-img { width: 281px; height: 284px; margin-left: 108px; float: left; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-img img { width: 280px; height: 280px; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message { float: left; width: 292px; height: 268px; margin-left: 100px; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .title { margin-top: 22px; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .title .discount { color: red; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .title a { color: black; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .title a:hover { text-decoration: underline; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .intro { color: #888888; margin-top: 22px; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .price { margin-top: 52px; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .price .rede { color: red; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .price .newprice { color: red; font-size: 22px; margin-top: 52px; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .function { margin-top: 25px; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .function a { display: block; width: 140px; height: 40px; background: red; color: #fff; line-height: 40px; text-align: center; font-size: 16px; float: left; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .function a:hover { text-decoration: underline; }
+
+.da-main-all .sale-list .list-one .listproduct-four .list-message .function .buypeo { display: block; float: left; margin-left: 30px; margin-top: 15px; }
+
+.da-main-all .sale-list .list-two { float: left; margin-left: 24px; }
+
+.da-main-all .sale-list .list-two .tomorrow { height: 58px; width: 386px; background: #F9F9F9; }
+
+.da-main-all .sale-list .list-two .tomorrow .tip-one { font-size: 18px; margin-left: 155px; }
+
+.da-main-all .sale-list .list-two .tomorrow .tip-two { font-size: 14px; margin-left: 120px; }
+
+.da-main-all .sale-list .list-two .data-flash { width: 386px; height: 1051px; background: #F9F9F9; }
+
+.da-main-all .sale-list .list-two .data-flash .clearfix { width: 386px; height: 195px; background: #fff; margin-bottom: 20px; }
+
+.da-main-all .sale-list .list-two .data-flash .clearfix:hover { box-shadow: 0 0 4px 3px #ccc; }
+
+.da-main-all .sale-list .list-two .data-flash .clearfix a img { width: 236px; height: 193px; float: left; }
+
+.da-main-all .sale-list .list-two .data-flash .clearfix .data { width: 150px; height: 195px; float: left; }
+
+.da-main-all .sale-list .list-two .data-flash .clearfix .data .count { margin-top: 21px; }
+
+.da-main-all .sale-list .list-two .data-flash .clearfix .data .function { margin-top: 104px; margin-left: 30px; }
+
+.da-main-all .sale-list .list-two .data-flash .clearfix .data .function .shopcar { width: 79px; height: 21px; background: #E14958; border: 0; line-height: 21px; color: #fff; }

@@ -1,0 +1,120 @@
+@import 'common.css';
+.header{
+	height: 100px;
+	border-bottom: 1px solid #ccc;
+	padding-top: 20px;
+	.logo{
+		width: 280px;
+		height: 40px;
+		margin-left: 70px;
+
+	}
+}
+.da-login{
+	height: 660px;
+	background: #F9FBFD;
+	padding-top: 40px;
+	.login-img{
+		margin-left: 170px;
+		float: left;
+	}
+	.da-login-dl{
+		width: 456px;
+		height: 488px;
+		border:1px solid #ccc;
+		float: left;
+		background: #fff;
+		margin-left: 100px;
+		.login-peo{
+			font-size: 16px;
+			margin-left: 49px;
+			margin-top: 26px;
+		}
+		.login-zc{
+			height: 59px;
+			width: 355px;
+			border-bottom: 1px solid #000;
+			margin-left: 50px;
+			.dl{
+				width: 68px;
+				height: 37px;
+				float: left;
+				font-size: 16px;
+				line-height: 37px;
+				text-align: center;
+				margin-left: 38px;
+				margin-top: 22px;
+				&:hover{
+					border-bottom: 2px solid #7D589D;
+				}
+			}
+			.zc{
+				width: 68px;
+				height: 37px;
+				float: left;
+				font-size: 16px;
+				line-height: 37px;
+				text-align: center;
+				margin-left: 38px;
+				margin-top: 22px;
+				&:hover{
+					border-bottom: 2px solid #7D589D;
+				}
+			}
+
+		}
+		.current{
+			margin-left: 63px;
+			margin-top: 40px;
+			.sign{
+				display: block;
+				width: 44px;
+				height: 41px;
+				float: left;
+				border:1px solid #ccc;
+				border-right: 0;
+			}
+			.mobile{
+				width: 278px;
+				height: 41px;
+				border:1px solid #ccc;
+			}
+		}
+		.ctrl{
+			margin-left: 63px;
+			margin-top: 20px;
+			.pswsign{
+				display: block;
+				width: 44px;
+				height: 41px;
+				float: left;
+				border:1px solid #ccc;
+				border-right: 0;
+			}
+			.psw{
+				width: 278px;
+				height: 41px;
+				border:1px solid #ccc;
+			}
+		}
+		.forget{
+			display: block;
+			margin-top: 23px;
+			margin-left: 327px;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+		.submit-btn{
+			width: 322px;
+			height: 41px;
+			margin-left: 63px;
+			margin-top: 20px;
+			background: #E14958;
+			color: #fff;
+			font-size: 16px;
+			border:0;
+			font-weight: bold;
+		}
+	}
+}

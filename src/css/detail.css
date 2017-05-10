@@ -1,0 +1,10 @@
+@import url(common.css);
+.detail-link { width: 1200px; height: 40px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin: 10px auto; }
+
+.detail-link .detail-list { height: 40px; }
+
+.detail-link .detail-list li { float: left; padding: 0 10px; }
+
+.detail-link .detail-list li a { line-height: 40px; color: #666666; }
+
+.detail-link .detail-list li span { margin-left: 10px; font-size: 16px; line-height: 40px; }
