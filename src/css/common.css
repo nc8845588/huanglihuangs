@@ -39,7 +39,11 @@
 
 .da-logo-conpainer .da-shopcar { height: 36px; width: 160px; background: #F1F1F1; float: right; border-radius: 2px; margin-top: 32px; }
 
-.da-logo-conpainer .da-shopcar a { line-height: 36px; font-size: 14px; color: #666666; margin-left: 50px; }
+.da-logo-conpainer .da-shopcar a { line-height: 36px; font-size: 14px; color: #666666; margin-left: 20px; }
+
+.da-logo-conpainer .da-shopcar a:hover { color: red; }
+
+.da-logo-conpainer .da-shopcar a i { font-size: 26px; color: purple; }
 
 .da-logo-conpainer .da-shopcar a span { margin-left: 20px; line-height: 36px; font-size: 20px; }
 
@@ -65,7 +69,9 @@
 
 .da-assure .da-assure-conpainer { width: 1200px; height: 82px; margin: 0 auto; }
 
-.da-assure .da-assure-conpainer .clearfix li { padding: 0 100px; float: left; font-size: 16px; color: #666666; line-height: 83px; }
+.da-assure .da-assure-conpainer .clearfix li { padding: 0 80px; float: left; font-size: 16px; color: #666666; line-height: 83px; }
+
+.da-assure .da-assure-conpainer .clearfix li i { color: purple; font-size: 22px; }
 
 .da-investor { width: 1055px; height: 144px; margin: 0 auto; border-bottom: 1px solid #ccc; color: #666666; }
 
@@ -96,3 +102,27 @@
 .da-copyright .p-first { color: #666666; margin-left: 635px; margin-top: 24px; }
 
 .da-copyright .p-second { color: #666666; margin-left: 300px; margin-top: 27px; }
+
+.da-sidebar { position: fixed; top: 0; right: 0; height: 100%; background: #333; color: #fff; text-align: center; z-index: 150; min-height: 480px; width: 40px; }
+
+.da-sidebar .car-btn { position: relative; margin-top: 110px; margin-bottom: 22px; padding: 0px 0px 10px; }
+
+.da-sidebar .car-btn i { font-size: 20px; }
+
+.da-sidebar .car-btn:hover { background: red; line-height: 40px; border-top: 1px solid #fff; border-bottom: 1px solid #fff; }
+
+.da-sidebar .car-btn .p1 { margin-top: 5px; }
+
+.da-sidebar .car-btn p { font-size: 14px; }
+
+.da-sidebar .youhui-btn { height: 37px; padding-top: 5px; }
+
+.da-sidebar .youhui-btn i { font-size: 20px; }
+
+.da-sidebar .youhui-btn:hover { background: red; line-height: 32px; }
+
+.da-sidebar .sc-btn { padding-top: 7px; height: 39px; }
+
+.da-sidebar .sc-btn i { font-size: 20px; }
+
+.da-sidebar .sc-btn:hover { background: red; line-height: 32px; }

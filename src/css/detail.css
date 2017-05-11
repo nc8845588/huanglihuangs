@@ -1,10 +1,115 @@
 @import url(common.css);
+@import url(jquery.gdszoom.css);
 .detail-link { width: 1200px; height: 40px; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; margin: 10px auto; }
 
 .detail-link .detail-list { height: 40px; }
 
 .detail-link .detail-list li { float: left; padding: 0 10px; }
 
+.detail-link .detail-list li:last-child { line-height: 40px; color: #666666; }
+
 .detail-link .detail-list li a { line-height: 40px; color: #666666; }
 
 .detail-link .detail-list li span { margin-left: 10px; font-size: 16px; line-height: 40px; }
+
+.detail-main { width: 1200px; height: 481px; margin: 0 auto; }
+
+.detail-main .detail-left { width: 1021px; height: 453px; float: left; padding-top: 15px; }
+
+.detail-main .detail-left .good-show { width: 378px; height: 453px; float: left; }
+
+.detail-main .detail-left .good-show .goods-big { width: 380px; height: 380px; border: 1px solid #ccc; }
+
+.detail-main .detail-left .good-show .goods-big img { width: 378px; height: 378px; }
+
+.detail-main .detail-left .good-show .share { width: 378px; height: 70px; margin-top: 31px; }
+
+.detail-main .detail-left .good-show .share .share-tip { width: 92px; height: 48px; float: left; }
+
+.detail-main .detail-left .good-show .share .share-tip a { color: #666666; }
+
+.detail-main .detail-left .good-show .share .receive { float: left; height: 48px; width: 178px; }
+
+.detail-main .detail-left .good-show .share .receive a { color: #666666; }
+
+.detail-main .detail-left .good-show .share .know { float: left; height: 48px; }
+
+.detail-main .detail-left .good-show .share .know a { color: #666666; display: block; width: 108px; height: 30px; text-align: center; }
+
+.detail-main .detail-left .good-show .share .know a:hover + .tip { display: block; }
+
+.detail-main .detail-left .good-show .share .know .tip { width: 108px; height: 200px; background: skyblue; display: none; }
+
+.detail-main .detail-left .goods-intro { width: 605px; height: 453px; float: left; margin-left: 37px; }
+
+.detail-main .detail-left .goods-intro h2 { color: #666666; }
+
+.detail-main .detail-left .goods-intro .good-price { height: 108px; width: 605px; }
+
+.detail-main .detail-left .goods-intro .tip { width: 79px; height: 108px; float: left; margin-top: 40px; }
+
+.detail-main .detail-left .goods-intro .tip p { color: #666666; }
+
+.detail-main .detail-left .goods-intro .price { width: 520px; height: 108px; float: left; margin-top: 29px; }
+
+.detail-main .detail-left .goods-intro .price .p1 span { font-size: 26px; font-weight: bold; color: #666666; }
+
+.detail-main .detail-left .goods-intro .price .p2 { color: #666666; line-height: 18px; }
+
+.detail-main .detail-left .goods-intro .price .p2 span { background: red; color: #fff; }
+
+.detail-main .detail-left .goods-intro .price .p3 { color: #999999; line-height: 18px; }
+
+.detail-main .detail-left .goods-intro .good-message { height: 43px; width: 526px; }
+
+.detail-main .detail-left .goods-intro .good-message ul li { float: left; padding: 0 50px; border-right: 1px solid #ccc; color: #666666; }
+
+.detail-main .detail-left .goods-intro .good-message ul li:first-child { padding-left: 0; }
+
+.detail-main .detail-left .goods-intro .good-buy { height: 38px; width: 526px; margin-top: 22px; }
+
+.detail-main .detail-left .goods-intro .good-buy .buy { padding-top: 10px; }
+
+.detail-main .detail-left .goods-intro .good-buy .buy p { color: #666666; }
+
+.detail-main .detail-left .goods-intro .buy-btn { height: 44px; width: 526px; margin-top: 30px; }
+
+.detail-main .detail-left .goods-intro .buy-btn .btn-buy { width: 143px; height: 44px; border: 2px solid #E14958; background: #fff; color: red; margin-left: 77px; }
+
+.detail-main .detail-left .goods-intro .buy-btn .good-add { width: 143px; height: 44px; background: #E14958; border: 0; color: #fff; margin-left: 10px; }
+
+.detail-main .detail-left .goods-intro .good-tips { height: 22px; width: 526px; margin-top: 27px; }
+
+.detail-main .detail-left .goods-intro .good-tips .mr20 { margin-left: 77px; line-height: 22px; color: #666666; }
+
+.detail-main .detail-right { width: 146px; height: 481px; background: yellow; float: left; margin-left: 16px; }
+
+.detail-info { width: 1020px; margin-left: 115px; }
+
+.detail-info .message { width: 1020px; height: 84px; padding-top: 40px; }
+
+.detail-info .message ul { border-bottom: 1px solid #ccc; height: 44px; }
+
+.detail-info .message ul li { float: left; padding: 0 30px; line-height: 42px; border-bottom: 0; }
+
+.detail-info .message ul li:first-child { border: 1px solid #ccc; border-top: 2px solid #ccc; border-bottom: 0; }
+
+.detail-info .message ul li a { font-size: 16px; color: #666666; font-weight: bold; }
+
+.detail-info .message ul li a:hover { text-decoration: underline; }
+
+.detail-info1 { width: 960px; height: 144px; margin-left: 145px; border-bottom: 1px dashed #ccc; }
+
+.detail-info1 .intros { margin-top: 30px; line-height: 38px; color: #666666; font-size: 14px; font-weight: bold; }
+
+.detail-info1 span { color: #666666; line-height: 30px; margin-right: 50px; }
+
+.detail-pic { width: 960px; height: 8387px; margin-left: 145px; border-bottom: 1px dashed #ccc; }
+
+.detail-pic .msg { margin-top: 30px; line-height: 38px; color: #666666; font-size: 14px; font-weight: bold; }
+
+.mianshui { width: 960px; height: 535px; margin-left: 145px; }
+
+.mianshui p { margin-top: 30px; line-height: 38px; color: #666666; font-size: 14px; font-weight: bold; }
+
+.help { width: 960px; margin-left: 145px; }

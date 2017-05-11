@@ -229,9 +229,7 @@
 
 .da-main-all .da-main .da-main-tab ul { height: 33px; border-bottom: 1px solid #ccc; padding-left: 37px; }
 
-.da-main-all .da-main .da-main-tab ul li { float: left; padding: 5px 16px; margin-right: 10px; border: 1px solid #ccc; border-bottom: 0; }
-
-.da-main-all .da-main .da-main-tab ul li a { font-size: 16px; }
+.da-main-all .da-main .da-main-tab ul li { float: left; padding: 5px 16px; margin-right: 10px; border: 1px solid #ccc; border-bottom: 0; font-size: 16px; color: #666666; }
 
 .da-main-all .da-main .tab-productone .dataone { width: 282px; height: 444px; margin-left: 82px; margin-top: 40px; float: left; }
 
@@ -403,7 +401,43 @@
 
 .da-main-all .da-buytext p { color: #666666; font-size: 16px; margin-top: 52px; margin-left: 57px; }
 
-.da-main-all .buy-list { height: 472px; background: #fff; margin-top: 5px; }
+.da-main-all .buy-list { height: 472px; width: 395px; background: #fff; margin-top: 5px; }
+
+.da-main-all .buy-list .clearintro { margin-left: 176px; line-height: 48px; color: #E14958; font-size: 16px; }
+
+.da-main-all .buy-list ul { height: 425px; width: 395px; }
+
+.da-main-all .buy-list ul .clearfirst { height: 213px; border-top: 1px solid #ccc; }
+
+.da-main-all .buy-list ul .clearfirst .top { background: #E14958; color: #fff; display: block; width: 70px; height: 20px; text-align: center; font-size: 14px; }
+
+.da-main-all .buy-list ul .clearfirst a img { width: 166px; height: 166px; float: left; }
+
+.da-main-all .buy-list ul .clearfirst .clearmsg { width: 188px; height: 166px; float: left; }
+
+.da-main-all .buy-list ul .clearfirst .clearmsg .tip1 { margin-top: 22px; color: #666666; }
+
+.da-main-all .buy-list ul .clearfirst .clearmsg .tip2 { color: #666666; }
+
+.da-main-all .buy-list ul .clearfirst .clearmsg .tip3 { margin-top: 40px; }
+
+.da-main-all .buy-list ul .clearfirst .clearmsg .tip3 .newprice { font-size: 20px; color: red; }
+
+.da-main-all .buy-list ul .ex-first { height: 213px; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; }
+
+.da-main-all .buy-list ul .ex-first .top { background: #E14958; color: #fff; display: block; width: 70px; height: 20px; text-align: center; font-size: 14px; }
+
+.da-main-all .buy-list ul .ex-first a img { width: 166px; height: 166px; float: left; }
+
+.da-main-all .buy-list ul .ex-first .clearmsg { width: 188px; height: 166px; float: left; }
+
+.da-main-all .buy-list ul .ex-first .clearmsg .tip1 { margin-top: 22px; color: #666666; }
+
+.da-main-all .buy-list ul .ex-first .clearmsg .tip2 { color: #666666; }
+
+.da-main-all .buy-list ul .ex-first .clearmsg .tip3 { margin-top: 40px; }
+
+.da-main-all .buy-list ul .ex-first .clearmsg .tip3 .newprice { font-size: 20px; color: red; }
 
 .da-main-all .second-buytext p { color: #666666; font-size: 16px; margin-top: 52px; margin-left: 57px; }
 
@@ -754,3 +788,7 @@
 .da-main-all .sale-list .list-two .data-flash .clearfix .data .function { margin-top: 104px; margin-left: 30px; }
 
 .da-main-all .sale-list .list-two .data-flash .clearfix .data .function .shopcar { width: 79px; height: 21px; background: #E14958; border: 0; line-height: 21px; color: #fff; }
+
+.da-main-tab ul li.active { background-color: #E14958; color: #fff; }
+
+.da-main-tab .tab { display: none; }

@@ -528,9 +528,8 @@
 					margin-right: 10px;
 					border:1px solid #ccc;
 					border-bottom: 0;
-						a{
-							font-size: 16px;						
-						}
+					font-size: 16px;
+					color: #666666;
 				}
 			}
 		}
@@ -907,10 +906,102 @@
 			margin-left: 57px;
 		}
 	}
+	// 手风琴
 	.buy-list{
 		height: 472px;
+		width: 395px;
 		background: #fff;
 		margin-top:5px;
+		.clearintro{
+			margin-left: 176px;
+			line-height: 48px;
+			color: #E14958;
+			font-size: 16px;
+		}
+		ul{
+			height: 425px;
+			width: 395px;
+			.clearfirst{
+				height: 213px;
+				border-top:1px solid #ccc;
+				.top{
+					background: #E14958;
+					color: #fff;
+					display: block;
+					width: 70px;
+					height: 20px;
+					text-align: center;
+					font-size: 14px;
+				}
+				a{
+					img{
+					    width: 166px;
+					    height: 166px;
+					    float: left;
+					}
+				}
+				.clearmsg{
+					width: 188px;
+					height: 166px;
+					float: left;
+					.tip1{
+						margin-top: 22px;
+						color: #666666;
+					}
+					.tip2{
+						color: #666666;
+					}
+					.tip3{
+						margin-top: 40px;
+						.newprice{
+							font-size: 20px;
+							color: red;
+						}
+					}
+				}
+			}
+			.ex-first{
+				height: 213px;
+				border-bottom:1px solid #ccc;
+				border-top:1px solid #ccc;
+				.top{
+					background: #E14958;
+					color: #fff;
+					display: block;
+					width: 70px;
+					height: 20px;
+					text-align: center;
+					font-size: 14px;
+				}
+				a{
+					img{
+					    width: 166px;
+					    height: 166px;
+					    float: left;
+					}
+				}
+				.clearmsg{
+					width: 188px;
+					height: 166px;
+					float: left;
+					.tip1{
+						margin-top: 22px;
+						color: #666666;
+					}
+					.tip2{
+						color: #666666;
+					}
+					.tip3{
+						margin-top: 40px;
+						.newprice{
+							font-size: 20px;
+							color: red;
+						}
+					}
+				}
+			}
+		}
+
 	}
 	.second-buytext{
 		p{
@@ -1702,4 +1793,12 @@
 			}
 		}
 	}
+}
+//
+.da-main-tab ul li.active{
+	background-color: #E14958;
+	color: #fff;
+}
+.da-main-tab .tab{
+	display: none;
 }

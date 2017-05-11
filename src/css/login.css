@@ -25,11 +25,15 @@
 
 .da-login .da-login-dl .current .sign { display: block; width: 44px; height: 41px; float: left; border: 1px solid #ccc; border-right: 0; }
 
+.da-login .da-login-dl .current .sign i { font-size: 26px; line-height: 41px; margin-left: 10px; }
+
 .da-login .da-login-dl .current .mobile { width: 278px; height: 41px; border: 1px solid #ccc; }
 
 .da-login .da-login-dl .ctrl { margin-left: 63px; margin-top: 20px; }
 
 .da-login .da-login-dl .ctrl .pswsign { display: block; width: 44px; height: 41px; float: left; border: 1px solid #ccc; border-right: 0; }
+
+.da-login .da-login-dl .ctrl .pswsign i { font-size: 26px; line-height: 41px; margin-left: 10px; }
 
 .da-login .da-login-dl .ctrl .psw { width: 278px; height: 41px; border: 1px solid #ccc; }
 

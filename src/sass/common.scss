@@ -87,7 +87,15 @@
 			line-height: 36px;
 			font-size: 14px;
 			color: #666666;
-			margin-left: 50px;
+			margin-left: 20px;
+			&:hover{
+				color: red;
+
+			}
+			i{
+				font-size: 26px;
+				color: purple;
+			}
 			span{
 				margin-left: 20px;
 				line-height: 36px;
@@ -151,15 +159,19 @@
 		height: 82px;
 		margin: 0 auto;
 		.clearfix li{
-			padding:0 100px; 
+			padding:0 80px; 
 			float: left;
 			font-size: 16px;
 			color: #666666;
 			line-height: 83px;
-
+				i{
+					color: purple;
+					font-size: 22px;
+				}
 		}
 	}
 }
+
 
 .da-investor{
 	width: 1055px;
@@ -232,4 +244,58 @@
 		margin-top: 27px;
 	}
 	
+}.da-sidebar{
+	position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    z-index: 150;
+    min-height: 480px;
+    width: 40px;
+    .car-btn{
+    	position: relative;
+	    margin-top: 110px;
+	    margin-bottom: 22px;
+	    padding: 0px 0px 10px;
+	    i{
+	    	font-size: 20px;
+	    }
+	    &:hover{
+    		background: red;
+    		line-height: 40px;
+    		border-top: 1px solid #fff;
+    		border-bottom: 1px solid #fff;
+    	}
+	    .p1{
+			margin-top: 5px;
+	    }
+	    p{
+	    	font-size: 14px;
+	    }
+    }
+    .youhui-btn{
+    	height: 37px;
+    	padding-top: 5px;
+    	i{
+    		font-size: 20px;
+    	}
+    	&:hover{
+    		background: red;
+    		line-height: 32px;
+    	}
+    }
+    .sc-btn{
+      	padding-top: 7px;
+    	height: 39px;
+    	i{
+    		font-size: 20px;
+    	}
+    	&:hover{
+    		background: red;
+    		line-height: 32px;
+    	}
+    }
 }
