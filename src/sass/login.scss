@@ -107,6 +107,7 @@
 				border:1px solid #ccc;
 			}
 		}
+
 		.forget{
 			display: block;
 			margin-top: 23px;
@@ -116,6 +117,163 @@
 			}
 		}
 		.submit-btn{
+			width: 322px;
+			height: 41px;
+			margin-left: 63px;
+			margin-top: 20px;
+			background: #E14958;
+			color: #fff;
+			font-size: 16px;
+			border:0;
+			font-weight: bold;
+		}
+	}
+	.da-login-zc{
+		width: 456px;
+		height: 488px;
+		border:1px solid #ccc;
+		float: left;
+		background: #fff;
+		margin-left: 100px;
+		position: absolute;
+		left: 642px;
+		display: none;
+		.login-peo{
+			font-size: 16px;
+			margin-left: 49px;
+			margin-top: 26px;
+		}
+		.login-zc{
+			height: 59px;
+			width: 355px;
+			border-bottom: 1px solid #000;
+			margin-left: 50px;
+			.dl{
+				width: 68px;
+				height: 37px;
+				float: left;
+				font-size: 16px;
+				line-height: 37px;
+				text-align: center;
+				margin-left: 38px;
+				margin-top: 22px;
+				&:hover{
+					border-bottom: 2px solid #7D589D;
+				}
+			}
+			.zc{
+				width: 68px;
+				height: 37px;
+				float: left;
+				font-size: 16px;
+				line-height: 37px;
+				text-align: center;
+				margin-left: 38px;
+				margin-top: 22px;
+				&:hover{
+					border-bottom: 2px solid #7D589D;
+				}
+			}
+
+		}
+		.currents{
+			margin-left: 63px;
+			margin-top: 40px;
+			.signs{
+				display: block;
+				width: 44px;
+				height: 41px;
+				float: left;
+				border:1px solid #ccc;
+				border-right: 0;
+				i{
+					font-size: 26px;
+					line-height: 41px;
+					margin-left: 10px;
+				}
+			}
+			.mobiles{
+				width: 278px;
+				height: 41px;
+				border:1px solid #ccc;
+			}
+		}
+		.ctrls{
+			margin-left: 63px;
+			margin-top: 20px;
+			.pswsign{
+				display: block;
+				width: 44px;
+				height: 41px;
+				float: left;
+				border:1px solid #ccc;
+				border-right: 0;
+				i{
+					font-size: 26px;
+					line-height: 41px;
+					margin-left: 10px;
+				}
+			}
+			.psws{
+				width: 278px;
+				height: 41px;
+				border:1px solid #ccc;
+			}
+		}
+		.ctrl1{
+			margin-left: 63px;
+			margin-top: 20px;
+			.pswsigns{
+				display: block;
+				width: 44px;
+				height: 41px;
+				float: left;
+				border:1px solid #ccc;
+				border-right: 0;
+				i{
+					font-size: 26px;
+					line-height: 41px;
+					margin-left: 10px;
+				}
+			}
+			.psw1{
+				width: 278px;
+				height: 41px;
+				border:1px solid #ccc;
+			}
+		}
+		.ctrl2{
+			margin-left: 63px;
+			margin-top: 20px;
+			.pswsignt{
+				display: block;
+				width: 44px;
+				height: 41px;
+				float: left;
+				border:1px solid #ccc;
+				border-right: 0;
+				i{
+					font-size: 26px;
+					line-height: 41px;
+					margin-left: 10px;
+				}
+			}
+			.pswss{
+				width: 278px;
+				height: 41px;
+				border:1px solid #ccc;
+			}
+
+		}
+		.forget{
+			display: block;
+			margin-top: 23px;
+			margin-left: 327px;
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+		.zhuce-btn{
 			width: 322px;
 			height: 41px;
 			margin-left: 63px;

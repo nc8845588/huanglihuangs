@@ -903,111 +903,119 @@
 			color: #666666;
 			font-size: 16px;
 			margin-top: 52px;
-			margin-left: 57px;
+			margin-left: 37px;
 		}
 	}
 	// 手风琴
-	.buy-list{
+	.buy-list-all{
+		width: 1200px;
 		height: 472px;
-		width: 395px;
-		background: #fff;
-		margin-top:5px;
-		.clearintro{
-			margin-left: 176px;
-			line-height: 48px;
-			color: #E14958;
-			font-size: 16px;
-		}
-		ul{
-			height: 425px;
-			width: 395px;
-			.clearfirst{
-				height: 213px;
-				border-top:1px solid #ccc;
-				.top{
-					background: #E14958;
-					color: #fff;
-					display: block;
-					width: 70px;
-					height: 20px;
-					text-align: center;
-					font-size: 14px;
-				}
-				a{
-					img{
-					    width: 166px;
-					    height: 166px;
-					    float: left;
+		.buy-list{
+			height: 472px;
+			width: 400px;
+			background: #fff;
+			margin-top:5px;
+			float: left;
+			.clearintro{
+				margin-left: 176px;
+				line-height: 48px;
+				color: #E14958;
+				font-size: 16px;
+			}
+			.clear-ul{
+				height: 410px;
+				width: 395px;
+				.clearfix{
+					height: 180px;
+					border-top:1px dotted #ccc;
+					overflow: hidden;
+					// padding: 38px 20px 10px;
+					.top{
+						background: #E14958;
+						color: #fff;
+						display: inline-block;
+						width: 70px;
+						height: 20px;
+						text-align: center;
+						font-size: 14px;
+					}
+					a{
+						img{
+						    width: 166px;
+						    height: 166px;
+						    float: left;
+						}
+					}
+					.clearmsg{
+						width: 188px;
+						height: 166px;
+						float: left;
+						.tip1{
+							margin-top: 10px;
+							color: #666666;
+						}
+						.tip2{
+							color: #666666;
+						}
+						.tip3{
+							margin-top: 40px;
+							.newprice{
+								font-size: 20px;
+								color: red;
+							}
+						}
 					}
 				}
-				.clearmsg{
-					width: 188px;
-					height: 166px;
-					float: left;
-					.tip1{
-						margin-top: 22px;
-						color: #666666;
+				.clearfix1{
+					height: 50px;
+					border-top:1px dotted #ccc;
+					overflow: hidden;
+					// padding: 38px 20px 10px;
+					.top{
+						background: #E14958;
+						color: #fff;
+						display: inline-block;
+						width: 70px;
+						height: 20px;
+						text-align: center;
+						font-size: 14px;
 					}
-					.tip2{
-						color: #666666;
+					a{
+						img{
+						    width: 166px;
+						    height: 166px;
+						    float: left;
+						}
 					}
-					.tip3{
-						margin-top: 40px;
-						.newprice{
-							font-size: 20px;
-							color: red;
+					.clearmsg{
+						width: 188px;
+						height: 166px;
+						float: left;
+						.tip1{
+							margin-top: 10px;
+							color: #666666;
+						}
+						.tip2{
+							color: #666666;
+						}
+						.tip3{
+							margin-top: 40px;
+							.newprice{
+								font-size: 20px;
+								color: red;
+							}
 						}
 					}
 				}
 			}
-			.ex-first{
-				height: 213px;
-				border-bottom:1px solid #ccc;
-				border-top:1px solid #ccc;
-				.top{
-					background: #E14958;
-					color: #fff;
-					display: block;
-					width: 70px;
-					height: 20px;
-					text-align: center;
-					font-size: 14px;
-				}
-				a{
-					img{
-					    width: 166px;
-					    height: 166px;
-					    float: left;
-					}
-				}
-				.clearmsg{
-					width: 188px;
-					height: 166px;
-					float: left;
-					.tip1{
-						margin-top: 22px;
-						color: #666666;
-					}
-					.tip2{
-						color: #666666;
-					}
-					.tip3{
-						margin-top: 40px;
-						.newprice{
-							font-size: 20px;
-							color: red;
-						}
-					}
-				}
-			}
-		}
 
+		}
 	}
 	.second-buytext{
 		p{
 			color: #666666;
 			font-size: 16px;
-			margin-top: 52px;
+			margin-top: 82px;
 			margin-left: 57px;
 		}
 	}
@@ -1802,3 +1810,19 @@
 .da-main-tab .tab{
 	display: none;
 }
+
+//手风琴
+// .buy-list .clear-ul li.first{
+// 	a{
+// 		img.list{
+// 			width: 48px;
+// 			height: 48px;
+// 		}
+// 	}
+// 	.clearmsg{
+// 		margin-left: 70px;
+// 		p.new{
+// 			margin-top: 5px;
+// 		}
+// 	}
+// }

@@ -399,47 +399,49 @@
 
 .da-main-all .da-main .tab-producttwo .datasix .list { margin-left: 120px; }
 
-.da-main-all .da-buytext p { color: #666666; font-size: 16px; margin-top: 52px; margin-left: 57px; }
+.da-main-all .da-buytext p { color: #666666; font-size: 16px; margin-top: 52px; margin-left: 37px; }
 
-.da-main-all .buy-list { height: 472px; width: 395px; background: #fff; margin-top: 5px; }
+.da-main-all .buy-list-all { width: 1200px; height: 472px; }
 
-.da-main-all .buy-list .clearintro { margin-left: 176px; line-height: 48px; color: #E14958; font-size: 16px; }
+.da-main-all .buy-list-all .buy-list { height: 472px; width: 400px; background: #fff; margin-top: 5px; float: left; }
 
-.da-main-all .buy-list ul { height: 425px; width: 395px; }
+.da-main-all .buy-list-all .buy-list .clearintro { margin-left: 176px; line-height: 48px; color: #E14958; font-size: 16px; }
 
-.da-main-all .buy-list ul .clearfirst { height: 213px; border-top: 1px solid #ccc; }
+.da-main-all .buy-list-all .buy-list .clear-ul { height: 410px; width: 395px; }
 
-.da-main-all .buy-list ul .clearfirst .top { background: #E14958; color: #fff; display: block; width: 70px; height: 20px; text-align: center; font-size: 14px; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix { height: 180px; border-top: 1px dotted #ccc; overflow: hidden; }
 
-.da-main-all .buy-list ul .clearfirst a img { width: 166px; height: 166px; float: left; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix .top { background: #E14958; color: #fff; display: inline-block; width: 70px; height: 20px; text-align: center; font-size: 14px; }
 
-.da-main-all .buy-list ul .clearfirst .clearmsg { width: 188px; height: 166px; float: left; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix a img { width: 166px; height: 166px; float: left; }
 
-.da-main-all .buy-list ul .clearfirst .clearmsg .tip1 { margin-top: 22px; color: #666666; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix .clearmsg { width: 188px; height: 166px; float: left; }
 
-.da-main-all .buy-list ul .clearfirst .clearmsg .tip2 { color: #666666; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix .clearmsg .tip1 { margin-top: 10px; color: #666666; }
 
-.da-main-all .buy-list ul .clearfirst .clearmsg .tip3 { margin-top: 40px; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix .clearmsg .tip2 { color: #666666; }
 
-.da-main-all .buy-list ul .clearfirst .clearmsg .tip3 .newprice { font-size: 20px; color: red; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix .clearmsg .tip3 { margin-top: 40px; }
 
-.da-main-all .buy-list ul .ex-first { height: 213px; border-bottom: 1px solid #ccc; border-top: 1px solid #ccc; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix .clearmsg .tip3 .newprice { font-size: 20px; color: red; }
 
-.da-main-all .buy-list ul .ex-first .top { background: #E14958; color: #fff; display: block; width: 70px; height: 20px; text-align: center; font-size: 14px; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix1 { height: 50px; border-top: 1px dotted #ccc; overflow: hidden; }
 
-.da-main-all .buy-list ul .ex-first a img { width: 166px; height: 166px; float: left; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix1 .top { background: #E14958; color: #fff; display: inline-block; width: 70px; height: 20px; text-align: center; font-size: 14px; }
 
-.da-main-all .buy-list ul .ex-first .clearmsg { width: 188px; height: 166px; float: left; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix1 a img { width: 166px; height: 166px; float: left; }
 
-.da-main-all .buy-list ul .ex-first .clearmsg .tip1 { margin-top: 22px; color: #666666; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix1 .clearmsg { width: 188px; height: 166px; float: left; }
 
-.da-main-all .buy-list ul .ex-first .clearmsg .tip2 { color: #666666; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix1 .clearmsg .tip1 { margin-top: 10px; color: #666666; }
 
-.da-main-all .buy-list ul .ex-first .clearmsg .tip3 { margin-top: 40px; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix1 .clearmsg .tip2 { color: #666666; }
 
-.da-main-all .buy-list ul .ex-first .clearmsg .tip3 .newprice { font-size: 20px; color: red; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix1 .clearmsg .tip3 { margin-top: 40px; }
 
-.da-main-all .second-buytext p { color: #666666; font-size: 16px; margin-top: 52px; margin-left: 57px; }
+.da-main-all .buy-list-all .buy-list .clear-ul .clearfix1 .clearmsg .tip3 .newprice { font-size: 20px; color: red; }
+
+.da-main-all .second-buytext p { color: #666666; font-size: 16px; margin-top: 82px; margin-left: 57px; }
 
 .da-main-all .da-newproduct { height: 971px; background: #fff; margin-top: 5px; }
 
