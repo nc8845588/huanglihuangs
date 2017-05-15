@@ -115,19 +115,19 @@
     /**
      * 销毁
      */
-  //   self.destory = function(){
-  //     $element.remove();
-  //   };
+    self.destory = function(){
+      $element.remove();
+    };
 
-  //   self.init(options);
-  // };
+    self.init(options);
+  };
 
-  // // add the plugin to the jQuery.fn object
-  // $.fn.fly = function (options) {
-  //   return this.each(function () {
-  //     if (undefined == $(this).data('fly')) {
-  //       $(this).data('fly', new $.fly(this, options));
-  //     }
-  //   });
+  // add the plugin to the jQuery.fn object
+  $.fn.fly = function (options) {
+    return this.each(function () {
+      if (undefined == $(this).data('fly')) {
+        $(this).data('fly', new $.fly(this, options));
+      }
+    });
   };
 })(jQuery);

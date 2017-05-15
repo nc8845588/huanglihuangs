@@ -633,7 +633,7 @@
 
 .da-main-all .sale-list .list-one .listproduct-one .list-message { float: left; width: 292px; height: 268px; margin-left: 100px; }
 
-.da-main-all .sale-list .list-one .listproduct-one .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; }
+.da-main-all .sale-list .list-one .listproduct-one .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; color: #fff; line-height: 28px; font-size: 14px; font-weight: bold; padding-left: 12px; }
 
 .da-main-all .sale-list .list-one .listproduct-one .list-message .title { margin-top: 22px; }
 
@@ -669,7 +669,7 @@
 
 .da-main-all .sale-list .list-one .listproduct-two .list-message { float: left; width: 292px; height: 268px; margin-left: 100px; }
 
-.da-main-all .sale-list .list-one .listproduct-two .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; }
+.da-main-all .sale-list .list-one .listproduct-two .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; color: #fff; line-height: 28px; font-size: 14px; font-weight: bold; padding-left: 12px; }
 
 .da-main-all .sale-list .list-one .listproduct-two .list-message .title { margin-top: 22px; }
 
@@ -705,7 +705,7 @@
 
 .da-main-all .sale-list .list-one .listproduct-three .list-message { float: left; width: 292px; height: 268px; margin-left: 100px; }
 
-.da-main-all .sale-list .list-one .listproduct-three .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; }
+.da-main-all .sale-list .list-one .listproduct-three .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; color: #fff; line-height: 28px; font-size: 14px; font-weight: bold; padding-left: 12px; }
 
 .da-main-all .sale-list .list-one .listproduct-three .list-message .title { margin-top: 22px; }
 
@@ -741,7 +741,7 @@
 
 .da-main-all .sale-list .list-one .listproduct-four .list-message { float: left; width: 292px; height: 268px; margin-left: 100px; }
 
-.da-main-all .sale-list .list-one .listproduct-four .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; }
+.da-main-all .sale-list .list-one .listproduct-four .list-message .timeout { width: 194px; height: 28px; background: black; margin-left: 24px; color: #fff; line-height: 28px; font-size: 14px; font-weight: bold; padding-left: 12px; }
 
 .da-main-all .sale-list .list-one .listproduct-four .list-message .title { margin-top: 22px; }
 

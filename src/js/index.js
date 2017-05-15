@@ -18,6 +18,7 @@ require(['config'],function(){
 
 			//tab标签的JS效果
 			var $li=$('.da-main-tab ul li');
+			
 
 			var $box=$('.da-main-tab .tab');
 
@@ -51,6 +52,46 @@ require(['config'],function(){
 				$li.eq(0).siblings().stop().animate({height:'50'})
 				$li.eq(0).stop().animate({height:'180'})
 			})
+
+
+			var $timeout=$('.timeout')
+			console.log($timeout)
+
+			var end = Date.parse('2017/5/19 23:34:10');
+			console.log(end)
+
+		// 页面进入时先执行一次
+		// 显示时间
+			showTimeLeft();
+
+
+			var timer = setInterval(showTimeLeft,1000);
+
+			function showTimeLeft(){
+			 	// var now = new Date().getTime();
+
+		 	// 
+			 	var now = Date.now();
+
+			 	// 把当前时间与秒杀时间进行对比
+			 	var offsetTime = Math.floor((end - now)/1000);
+
+
+			 	// 剩余秒数
+			 	var secLeft = offsetTime%60;
+
+			 	// 剩余分钟数
+			 	var minLeft = Math.floor(offsetTime/60)%60;
+
+			 	// 剩余小时数
+			 	var hourLeft = Math.floor(offsetTime/60/60)%24;
+
+			 	// 剩余小时数
+			 	var dayLeft = Math.floor(offsetTime/60/60/24);
+			 	console.log(dayLeft)
+
+			 	$timeout.text('闪购还剩' + dayLeft + '天' + hourLeft + '时' + minLeft + '分' + secLeft + '秒');
+			 }
 
 		})
 	});

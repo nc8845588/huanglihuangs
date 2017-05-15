@@ -16,26 +16,26 @@ require(['config'],function(){
 			//购物车抛物线的效果
 			
 			var $btn=$('.buy-btn .good-add')
-			// $btn.on('click', addCart);
-			// function addCart(event) {
-			// 	var offset = $('#car').offset(), flyer = $('<img class="u-flyer" src="../img/14365241426760 (12).jpg"/>');
-			// 	flyer.css({
-			// 		width:'80',
-			// 		height:'80'
-			// 	});
-			// 	flyer.fly({
-			// 	    start: {
-			// 	        left: event.clientX-10,
-			// 	        top: event.clientY-10 
-			// 	    },
-			// 	    end: {
-			// 	        left: offset.left,
-			// 	        top: offset.top - scrollY,
-			// 	        width: 20,
-			// 	        height: 20
-			// 	    }
-			// 	});
-			// }
+			$btn.on('click', addCart);
+				function addCart(event) {
+				var offset = $('#car').offset(), flyer = $('<img class="u-flyer" src="../img/14365241426760 (12).jpg"/>');
+				flyer.css({
+					width:80,
+					height:80
+				})
+				flyer.fly({
+				    start: {
+				        left: event.clientX,
+				        top: event.clientY
+				    },
+				    end: {
+				        left: offset.left,
+				        top: offset.top-scrollY,
+				        width: 20,
+				        height: 20
+				    }
+				});
+			}
 
 			//cookie
 			// console.log($(this))
@@ -46,7 +46,7 @@ require(['config'],function(){
 			//获取商品的价格
 			var $price=$('.price .p1 span')
 
-			var $prices=$price.text();
+			var $names=$name.text();
 		
 			var carlist=getCookie('carlist')
 
@@ -56,22 +56,16 @@ require(['config'],function(){
 
 				
 				var hasGood=false;
-				console.log($prices)
 				for(var i=0;i<carlist.length;i++){
-					if (carlist[i].price== $prices){
+					if (carlist[i].name== $names){
 						console.log(carlist[i])
 						hasGood = true;
-						carlist[i].qty+=1;
+						carlist[i].qty++;
 						break;
 						
 					}
 				}
-				// $(carlist).each(function(idx,item){
-				// 	if(item.price==$prices){
-				// 		hasGoods = true;
-				// 		this.qty++
-				// 	}
-				// })
+			
 				if (hasGood ==false){
 					var goods={
 						imgUrl:$img.attr('src'),
@@ -79,14 +73,14 @@ require(['config'],function(){
 						price:$price.text(),
 						qty:1
 					}	
+					carlist.push(goods)
 				}
-				
-				carlist.push(goods)
+							
 				console.log(carlist)
 				setCookie('carlist',JSON.stringify(carlist));
 			})
 			
 
-		})
+		});
 	});
 });

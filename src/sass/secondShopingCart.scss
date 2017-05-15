@@ -1,0 +1,52 @@
+@import 'common.css';
+.pay{
+	width: 1020px;
+	margin: 0 auto;
+	.paymsg{
+		height: 141px;
+		border:1px solid #ccc;
+		padding-top: 44px;
+		.pay-msg{
+			text-align: center;
+			font-size: 14px;
+			color: #666666;
+			.fis{
+				color: red;
+			}
+		}
+		.p1{
+			text-align: center;
+			color: #666666;
+			.fix2{
+				color: red;
+			}
+			.fix3{
+				font-size: 30px;
+				color: red;
+			}
+		}
+	}
+	.p2{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.payway{
+		height: 181px;
+		margin-top: 10px;
+		padding-top: 20px;
+		border:1px solid #ccc;
+		.p3{
+			margin-left: 20px;
+		}
+	}
+}
+.pay .payway .select{height: 111px;width: 986px; border-bottom:1px solid #ccc; margin:0 auto;}
+.pay .payway .select .dan{margin-top: 20px; display: inline-block;}
+.pay .paymoney{height: 108px;width: 1020px;}
+.pay .paymoney .onepay{width: 878px; height: 108px;float: left;}
+.pay .paymoney .onepay .p1{margin-top: 34px;margin-left: 700px;}
+.pay .paymoney .onepay .p1 .span1{color: red;}
+.pay .paymoney .onepay .p1 .span2{color: red;font-size: 24px;}
+.pay .paymoney .twopay{width: 140px; height: 108px;float: left; padding-top: 30px;}
+.pay .paymoney .twopay .btn{height: 38px; width: 140px; background: #E14958;color: #fff;
+font-size: 16px; line-height: 38px;font-weight: bold; border: 0}

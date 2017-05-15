@@ -1,0 +1,88 @@
+@import url(common.css);
+.carmain { width: 1020px; height: 800px; margin: 0 auto; border: 1px dotted #ccc; }
+
+.carmain .personmsg { width: 985px; height: 75px; border-bottom: 1px dotted #ccc; padding-top: 20px; margin-left: 16px; color: #666666; }
+
+.carmain .goodsmsg { width: 985px; height: 290px; border-bottom: 1px dotted #ccc; padding-top: 20px; margin-left: 16px; }
+
+.carmain .goodsmsg h3 { color: #666666; }
+
+.carmain .goodsmsg .carlist { width: 926px; height: 200px; margin-top: 16px; margin-left: 30px; border: 1px solid #CCC; }
+
+.carmain .goodsmsg .carlist .allmsg { height: 43px; width: 924px; background: #F7F7F7; }
+
+.carmain .goodsmsg .carlist .allmsg ul li { float: left; color: #666666; line-height: 43px; font-size: 14px; }
+
+.carmain .goodsmsg .carlist .allmsg ul li:nth-child(1) { margin-left: 50px; }
+
+.carmain .goodsmsg .carlist .allmsg ul li:nth-child(2) { margin-left: 480px; }
+
+.carmain .goodsmsg .carlist .allmsg ul li:nth-child(3) { margin-left: 100px; }
+
+.carmain .goodsmsg .carlist .allmsg ul li:nth-child(4) { margin-left: 100px; }
+
+.carmain .goodsmsg .carlist .goods { width: 924px; height: 120px; margin-left: 38px; }
+
+.carmain .goodsmsg .carlist .goods li { float: left; margin-top: 20px; }
+
+.carmain .goodsmsg .carlist .goods li:nth-child(2) { margin-left: 20px; padding-top: 20px; color: #666666; }
+
+.carmain .goodsmsg .carlist .goods li:nth-child(3) { margin-left: 100px; padding-top: 20px; color: #666666; font-size: 14px; }
+
+.carmain .goodsmsg .carlist .goods li:nth-child(4) { margin-left: 70px; padding-top: 20px; color: #666666; font-size: 14px; }
+
+.carmain .goodsmsg .carlist .goods li:nth-child(4) .reduce { background: #fff; width: 30px; height: 30px; border: 1px solid #ccc; }
+
+.carmain .goodsmsg .carlist .goods li:nth-child(4) .qtys { background: #fff; width: 35px; height: 30px; border: 1px solid #ccc; text-align: center; }
+
+.carmain .goodsmsg .carlist .goods li:nth-child(4) .add { background: #fff; width: 30px; height: 30px; border: 1px solid #ccc; }
+
+.carmain .goodsmsg .carlist .goods li:nth-child(5) { margin-left: 60px; padding-top: 20px; color: #666666; font-size: 14px; }
+
+.carmain .goodsmsg .carlist .goods li img { width: 80px; height: 80px; border: 1px solid #ccc; }
+
+.carmain .shop { height: 166px; padding-top: 38px; border-bottom: 1px solid #ccc; }
+
+.carmain .shop .shopway { color: #666666; font-size: 12px; margin-left: 20px; }
+
+.carmain .shop .shopway .shopmsg { color: #666666; font-weight: bold; font-size: 14px; }
+
+.carmain .shop .zhifu { width: 142px; height: 44px; border: 3px solid #ccc; margin-left: 50px; margin-top: 30px; }
+
+.carmain .shop .zhifu .word { text-align: center; line-height: 44px; font-size: 14px; }
+
+.carmain .all { height: 167px; border-bottom: 1px solid #ccc; }
+
+.carmain .all .method { width: 621px; height: 167px; float: left; border-right: 1px solid #ccc; padding-top: 50px; }
+
+.carmain .all .method p { margin-left: 30px; color: #666666; line-height: 30px; }
+
+.carmain .all .priceall { width: 385px; float: left; }
+
+.carmain .all .priceall .ul1 { width: 300px; margin-top: 30px; float: left; }
+
+.carmain .all .priceall .ul1 li { margin-left: 30px; color: #666666; line-height: 30px; }
+
+.carmain .all .priceall .ul2 { width: 85px; margin-top: 30px; float: left; }
+
+.carmain .all .priceall .ul2 li { margin-left: 30px; color: #666666; line-height: 30px; }
+
+.carmain .submit-btn { height: 100px; }
+
+.carmain .submit-btn .btnone { float: left; width: 850px; }
+
+.carmain .submit-btn .btnone .ul3 { margin-left: 650px; line-height: 100px; }
+
+.carmain .submit-btn .btnone .ul3 li { float: left; }
+
+.carmain .submit-btn .btnone .ul3 li:nth-child(1) { color: #666666; }
+
+.carmain .submit-btn .btnone .ul3 li:nth-child(2) { color: red; }
+
+.carmain .submit-btn .btnone .ul3 li:nth-child(3) { color: red; font-size: 30px; }
+
+.carmain .submit-btn .btntwo { float: left; width: 165px; height: 100px; }
+
+.carmain .submit-btn .btntwo .sbtn { width: 138px; height: 60px; background: #F25E5A; border: 0; margin-top: 20px; margin-left: 10px; }
+
+.carmain .submit-btn .btntwo .sbtn a { font-size: 18px; color: #fff; }
